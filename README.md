@@ -12,25 +12,28 @@
 ## 文件目录
 
 ```shell
+PS D:\Desktop2\DL_Foundation\assignment\lastwork> ls
+
+
     目录: D:\Desktop2\DL_Foundation\assignment\lastwork
 
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
-d-----          2023/7/5      9:51                checkpoint
+d-----         2023/7/15     12:30                checkpoint
 d-----         2023/7/14     17:31                data
 d-----         2023/6/20     15:27                flagged
-d-----          2023/7/7      8:59                huaweilab
+d-----         2023/7/15     12:34                huaweilab
 d-----          2023/7/7      9:49                image
 d-----         2023/6/27     18:39                learning
 d-----          2023/7/4     12:37                mydet
 d-----         2023/7/14     16:02                README.assets
 d-----         2023/6/30     20:43                reference
-d-----         2022/5/31      4:58                starting_kit
-d-----          2023/7/7     11:34                submit
+d-----         2023/7/15     12:34                submit
 d-----          2023/7/6     16:42                utils
 d-----         2023/6/20     18:28                __pycache__
 d-----         2023/7/14     17:22                数据和提交内容
+-a----         2023/7/15     12:45             83 .gitignore
 -a----          2023/7/6     21:52         265120 0查看数据集.ipynb
 -a----          2023/7/6     15:50        2768763 1查看提交格式.ipynb
 -a----         2023/6/29     21:03        1038783 2_SSD_colab_demo.ipynb
@@ -43,11 +46,13 @@ d-----         2023/7/14     17:22                数据和提交内容
 -a----          2023/7/6     18:48          29565 3_7_mydet_eval_batch_submit.ipynb
 -a----          2023/7/7      9:49           3157 anchor_size_ratios.ipynb
 -a----          2023/7/1      0:22           1807 DailyNote.md
--a----         2023/7/14     17:34           1663 README.md
+-a----         2023/7/15     12:32           3996 README.md
 -a----         2023/6/26     21:39             30 requirements.txt
+-a----         2023/7/15     13:36       55750793 starting_kit.zip
 -a----          2023/7/6     16:19         441808 test_images.csv
 -a----          2023/7/7     11:32         798937 大作业-董林康-1120212477.ipynb
 -a----         2023/6/18     17:14           2605 比赛要求.md
+
 ```
 
 ### main
@@ -64,3 +69,5 @@ d-----         2023/7/14     17:22                数据和提交内容
 - 其余的`learning`文件夹中的`ipynb`和上面目录中的其它`ipynb`文件均为一点一点做该项目的学习notebook，包含具体文件代码及思路注释
 - `requirements.txt`为运行本项目所需要的python包
 - `test_images.csv`为自己生成的测试集图片信息的csv文件
+- `checkpoint`文件夹中是colab和modelarts训练的参数，由于超过一百兆，没有上传github
+- `starting_kit.zip`中是助教一开始给的读取标注的样例文件
