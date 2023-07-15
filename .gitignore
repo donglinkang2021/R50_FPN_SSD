@@ -1,0 +1,6 @@
+# 忽略参数目录
+
+checkpoint/
+submit/
+数据和提交内容/
+starting_kit/
